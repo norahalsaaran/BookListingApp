@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/search_books">
+
+    <TextView
+        style="@style/WlcMsgStyle"
+        android:text="@string/WLC"
+        />
+
+    <TextView
+        style="@style/NormalStyle"
+        android:padding="16dp"
+        android:textColor="@color/blue"
+        android:text="@string/enterMsg"/>
+
+    <EditText
+        android:id="@+id/searchText"
+        style="@style/NormalStyle"
+        android:padding="16dp"
+        android:textColor="@color/blue" />
+
+    <Button
+        android:id="@+id/searchBTN"
+        style="@style/BTNStyle"/>
+
+</LinearLayout>
